@@ -12,13 +12,17 @@ def randomforest_importances():
     indices = np.argsort(importances)[::-1]
     #for f in range(X_train.shape[1]):
      #   str = "%2d %-*s %f" % (f+1, 30, feat_labels[f], importances[indices[f]])
-    plt.title('Feature Importances')
-    plt.bar(range(X_train.shape[1]),
-            importances[indices],
-            color='lightblue',
-            align='center')
-    plt.xticks(range(X_train.shape[1]),
-               feat_labels, rotation=90)
-    plt.xlim([-1, X_train.shape[1]])
-    plt.tight_layout()
-    plt.show()
+
+    # plt.title('Feature Importances')
+    # plt.bar(range(X_train.shape[1]),
+    #         importances[indices],
+    #         color='lightblue',
+    #         align='center')
+    # plt.xticks(range(X_train.shape[1]),
+    #            feat_labels, rotation=90)
+    # plt.xlim([-1, X_train.shape[1]])
+    # plt.tight_layout()
+    # plt.show()
+
+if __name__ == '__main__':
+    randomforest_importances()
