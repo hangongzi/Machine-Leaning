@@ -12,7 +12,7 @@ def randomforest_importances():
     indices = np.argsort(importances)[::-1]
     #for f in range(X_train.shape[1]):
      #   str = "%2d %-*s %f" % (f+1, 30, feat_labels[f], importances[indices[f]])
-
+    result = forest.predict(X_test)
     # plt.title('Feature Importances')
     # plt.bar(range(X_train.shape[1]),
     #         importances[indices],
