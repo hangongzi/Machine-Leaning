@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fce21d72-b7f6-458c-a47c-9f779c002d63" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter7/integration_class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter7/majority_vote_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter7/majority_vote_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter7/majority_vote_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,7 +17,7 @@
     <SUITE FILE_PATH="coverage/Machine_Learning$PCA.coverage" NAME="PCA Coverage Results" MODIFIED="1543833562393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter5" />
     <SUITE FILE_PATH="coverage/Machine_Learning$kernel_pca_multidataset.coverage" NAME="kernel_pca_multidataset Coverage Results" MODIFIED="1544012370833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter5" />
     <SUITE FILE_PATH="coverage/Machine_Learning$BreastCancerWisconsin.coverage" NAME="BreastCancerWisconsin Coverage Results" MODIFIED="1544430418421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter6" />
-    <SUITE FILE_PATH="coverage/Machine_Learning$majority_vote_test.coverage" NAME="majority_vote_test Coverage Results" MODIFIED="1544447339769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter7" />
+    <SUITE FILE_PATH="coverage/Machine_Learning$majority_vote_test.coverage" NAME="majority_vote_test Coverage Results" MODIFIED="1544498146027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter7" />
     <SUITE FILE_PATH="coverage/Machine_Learning$test.coverage" NAME="test Coverage Results" MODIFIED="1542020083541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyabc" />
     <SUITE FILE_PATH="coverage/Machine_Learning$majority_voting.coverage" NAME="majority_voting Coverage Results" MODIFIED="1544444283473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter7" />
     <SUITE FILE_PATH="coverage/Machine_Learning$LDA.coverage" NAME="LDA Coverage Results" MODIFIED="1543904608615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter5" />
@@ -76,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="majority_voting.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="majority_voting.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapter7/majority_voting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2325">
-              <caret line="100" column="24" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
+            <state relative-caret-position="-1275">
+              <caret line="30" column="89" selection-start-line="30" selection-start-column="89" selection-end-line="30" selection-end-column="89" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -88,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="majority_vote_test.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="majority_vote_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter7/majority_vote_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="34" column="43" lean-forward="true" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+            <state relative-caret-position="76">
+              <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -399,24 +397,30 @@
       <option name="project" value="LOCAL" />
       <updated>1544435783506</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add 7">
+      <created>1544495315236</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1544495315237</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005353" side_tool="true" weight="0.32925472" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32925472" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="11" visible="true" weight="0.32884398" />
       <window_info anchor="bottom" id="Python Console" order="13" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28395063" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6228956" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946466" weight="0.32884398" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13972163" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.48260382" weight="0.33244112" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.48260382" visible="true" weight="0.33244112" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39955106" />
@@ -447,7 +451,8 @@
     <MESSAGE value="add LDA" />
     <MESSAGE value="add kernel PCA" />
     <MESSAGE value="add 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 6" />
+    <MESSAGE value="add 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -589,13 +594,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter5/PCA_Core.py" />
-    <entry file="file://D:/Program Files/python3/Lib/site-packages/matplotlib/pyplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="2792" selection-start-line="2792" selection-end-line="2792" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -713,22 +711,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter7/majority_voting.py">
+    <entry file="file://D:/Program Files/python3/Lib/site-packages/matplotlib/pyplot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2325">
-          <caret line="100" column="24" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="237">
+          <caret line="2879" column="72" lean-forward="true" selection-start-line="2879" selection-start-column="72" selection-end-line="2879" selection-end-column="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter7/majority_vote_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="34" column="43" lean-forward="true" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+        <state relative-caret-position="76">
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter7/majority_voting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1275">
+          <caret line="30" column="89" selection-start-line="30" selection-start-column="89" selection-end-line="30" selection-end-column="89" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
