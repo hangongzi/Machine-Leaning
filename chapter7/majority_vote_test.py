@@ -11,6 +11,7 @@ from sklearn.metrics import roc_curve
 from sklearn.metrics import auc
 import matplotlib.pyplot as plt
 import numpy as np
+from sklearn.model_selection import GridSearchCV
 from chapter7.majority_voting import MajorityVoteClassifier
 
 iris = datasets.load_iris()
@@ -43,7 +44,20 @@ def test_majority_vote():
         print("Accuracy: %0.2f (+/- %0.2f) [%s]"%(scores.mean(), scores.std(), label))
     #val_majority_vote(all_clf=all_clf, clf_labels=clf_labels)
     #show_decision(all_clf, clf_labels)
-    print(mv_clf.get_params())
+    grid_serarch(mv_clf)
+
+def grid_serarch(mv_clf):
+    params = {'decisiontreeclassifier__max__depth': [1, 2],
+              'pipeline-1__clf__C': [0.001, 0.1, 100.0]}
+    grid = GridSearchCV(estimator=mv_clf,
+                        param_grid=params,
+                        cv=10,
+                        scoring='roc_auc')
+    grid.fit(X_train, y_train)
+    # for params, mean_score, scores in grid.grid_scores_:
+    #     print("%0.3f +/- %0.2f *r"%(mean_score, scores.std()/2, params))
+    print('Best parameters: %s'%grid.best_params_)
+    print('Accuracy: %.2f'%grid.best_score_)
 
 def val_majority_vote(all_clf, clf_labels):
     colors = ['black', 'orange', 'blue', 'green']
