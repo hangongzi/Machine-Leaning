@@ -52,6 +52,7 @@ def class_fun():
     X_test = vect.transform(X_test)
     print('Accuracy: %.3f' % clf.score(X_test, y_test))
     clf = clf.partial_fit(X_test, y_test)
+    return clf
 
 if __name__ == '__main__':
     class_fun()
