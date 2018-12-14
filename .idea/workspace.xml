@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fce21d72-b7f6-458c-a47c-9f779c002d63" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter7/AdaBoost.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter7/bagging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter8/acl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter8/class_exetor_mem.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/majority_vote_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter7/majority_vote_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,7 +27,9 @@
     <SUITE FILE_PATH="coverage/Machine_Learning$majority_vote_test.coverage" NAME="majority_vote_test Coverage Results" MODIFIED="1544508278915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter7" />
     <SUITE FILE_PATH="coverage/Machine_Learning$majority_voting.coverage" NAME="majority_voting Coverage Results" MODIFIED="1544444283473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter7" />
     <SUITE FILE_PATH="coverage/Machine_Learning$AdaBoost.coverage" NAME="AdaBoost Coverage Results" MODIFIED="1544529706197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter7" />
+    <SUITE FILE_PATH="coverage/Machine_Learning$class_exetor_mem.coverage" NAME="class_exetor_mem Coverage Results" MODIFIED="1544774352179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter8" />
     <SUITE FILE_PATH="coverage/Machine_Learning$RandomForest.coverage" NAME="RandomForest Coverage Results" MODIFIED="1540376315257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter4" />
+    <SUITE FILE_PATH="coverage/Machine_Learning$acl.coverage" NAME="acl Coverage Results" MODIFIED="1544772616569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter8" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1438051169">
@@ -67,44 +68,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="integration_class.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter7/integration_class.py">
+      <file leaf-file-name="acl.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter8/acl.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+            <state relative-caret-position="105">
+              <caret line="98" column="17" lean-forward="true" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
               <folding>
-                <element signature="e#0#30#0" expanded="true" />
+                <element signature="e#0#14#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="majority_vote_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter7/majority_vote_test.py">
+      <file leaf-file-name="class_exetor_mem.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter8/class_exetor_mem.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bagging.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter7/bagging.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="54" column="43" lean-forward="true" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
+            <state relative-caret-position="345">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdaBoost.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AdaBoost.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter7/AdaBoost.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="52" column="59" lean-forward="true" selection-start-line="52" selection-start-column="59" selection-end-line="52" selection-end-column="59" />
+            <state relative-caret-position="1075">
+              <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -149,6 +141,8 @@
         <option value="$PROJECT_DIR$/chapter7/bagging.py" />
         <option value="$PROJECT_DIR$/chapter6/BreastCancerWisconsin.py" />
         <option value="$PROJECT_DIR$/chapter7/AdaBoost.py" />
+        <option value="$PROJECT_DIR$/chapter8/acl.py" />
+        <option value="$PROJECT_DIR$/chapter8/class_exetor_mem.py" />
       </list>
     </option>
   </component>
@@ -183,16 +177,6 @@
               <item name="Machine-Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="Machine-Learning" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Machine-Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Machine-Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Machine-Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Machine-Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter7" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -217,7 +201,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.AdaBoost">
+  <component name="RunManager" selected="Python.class_exetor_mem">
     <configuration name="AdaBoost" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Machine-Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -232,6 +216,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter7/AdaBoost.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="acl" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Machine-Learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter8" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter8/acl.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -256,7 +259,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="integration_class" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="class_exetor_mem" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Machine-Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -264,12 +267,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter8" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter7/integration_class.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter8/class_exetor_mem.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -294,39 +297,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="majority_voting" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Machine-Learning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter7" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter7/majority_voting.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
-      <item itemvalue="Python.integration_class" />
-      <item itemvalue="Python.majority_voting" />
       <item itemvalue="Python.majority_vote_test" />
       <item itemvalue="Python.bagging" />
       <item itemvalue="Python.AdaBoost" />
+      <item itemvalue="Python.acl" />
+      <item itemvalue="Python.class_exetor_mem" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.class_exetor_mem" />
+        <item itemvalue="Python.acl" />
         <item itemvalue="Python.AdaBoost" />
         <item itemvalue="Python.bagging" />
         <item itemvalue="Python.majority_vote_test" />
-        <item itemvalue="Python.majority_voting" />
-        <item itemvalue="Python.integration_class" />
       </list>
     </recent_temporary>
   </component>
@@ -446,7 +430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544498542910</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add 7">
+      <created>1544530283122</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1544530283122</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -458,12 +449,12 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32884398" />
       <window_info anchor="bottom" id="Python Console" order="13" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29741862" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29741862" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946466" weight="0.32884398" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13972163" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14453961" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.48260382" visible="true" weight="0.3940043" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.48260382" weight="0.3940043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39955106" />
@@ -503,14 +494,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapter5/PCA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyabc/main.py" />
     <entry file="file://$PROJECT_DIR$/pyabc/model/__init__.py" />
     <entry file="file://$PROJECT_DIR$/pyabc/model/disk.py" />
     <entry file="file://$PROJECT_DIR$/pyabc/test.py" />
@@ -615,17 +598,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter5/PCA_Core.py" />
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="25">
             <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -730,26 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
           <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter7/integration_class.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter7/majority_vote_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -778,18 +741,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="54" column="43" lean-forward="true" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter7/majority_vote_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter7/integration_class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter7/AdaBoost.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter7/AdaBoost.py">
+    <entry file="file://$PROJECT_DIR$/chapter8/acl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="52" column="59" lean-forward="true" selection-start-line="52" selection-start-column="59" selection-end-line="52" selection-end-column="59" />
+        <state relative-caret-position="105">
+          <caret line="98" column="17" lean-forward="true" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter8/class_exetor_mem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
