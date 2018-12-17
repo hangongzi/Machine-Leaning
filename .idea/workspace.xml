@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fce21d72-b7f6-458c-a47c-9f779c002d63" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter10/decision_tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter10/liner_regression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter12/neural.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -92,32 +91,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="liner_regression.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter10/liner_regression.py">
+      <file leaf-file-name="neural.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter12/neural.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="decision_tree.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter10/decision_tree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="53" column="32" lean-forward="true" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LRGD.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter10/LRGD.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+            <state>
+              <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -172,6 +150,7 @@
         <option value="$PROJECT_DIR$/chapter10/libexample.py" />
         <option value="$PROJECT_DIR$/chapter10/liner_regression.py" />
         <option value="$PROJECT_DIR$/chapter10/decision_tree.py" />
+        <option value="$PROJECT_DIR$/chapter12/neural.py" />
       </list>
     </option>
   </component>
@@ -209,7 +188,7 @@
             <path>
               <item name="Machine-Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="Machine-Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter10" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter12" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -494,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544786248166</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add 10">
+      <created>1545038387787</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1545038387787</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -509,7 +495,7 @@
       <window_info anchor="bottom" id="Python Console" order="13" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4074074" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946466" weight="0.32884398" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14882226" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14882226" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" weight="0.32976446" />
       <window_info anchor="right" id="SciView" order="3" sideWeight="0.4691358" weight="0.29229122" />
@@ -545,7 +531,8 @@
     <MESSAGE value="add 7" />
     <MESSAGE value="add 8" />
     <MESSAGE value="add 9 and web_mn" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 9 and web_mn" />
+    <MESSAGE value="add 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 10" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -553,13 +540,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapter4/sbs_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter4/SBS.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-510">
@@ -859,6 +839,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/chapter10/decision_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="43" column="45" lean-forward="true" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chapter10/liner_regression.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -866,13 +856,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter10/decision_tree.py">
+    <entry file="file://$PROJECT_DIR$/chapter12/neural.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="53" column="32" lean-forward="true" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
         </state>
       </provider>
     </entry>
